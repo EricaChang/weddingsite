@@ -1,3 +1,1 @@
 weddingsite
-===========
-# for wedding
