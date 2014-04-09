@@ -1,1 +1,1 @@
-weddingsite
+wedding site
