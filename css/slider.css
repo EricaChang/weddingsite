@@ -1,7 +1,7 @@
 .mi-slider {
     position: relative;
-    margin-top: 30px;
-    height: 490px;
+    /*margin-top: 10px;*/
+    height: 600px;
 }
 
 .mi-slider > ul {
@@ -31,7 +31,7 @@
     display: inline-block;
     padding: 20px;
     width: 100%;
-    max-width: 90%;
+    max-width: 86%;
     -webkit-transform: translateX(600%);
     transform: translateX(600%);
     -webkit-transition: opacity 0.2s linear;
@@ -50,15 +50,14 @@
 */
 
 .mi-slider > ul > li > div:first-child {
-    /*background-color: red;*/
-    height: 500px;
+    height: 530px;
 }
 
 .mi-slider > nav {
     position: relative;
-    top: 550px;
+    top: 575px;
     text-align: center;
-    max-width: 80%;
+    max-width: 74%;
     margin: 0 auto;
     border-top: 5px solid #333;
 }
@@ -71,7 +70,7 @@
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: 5px;
-    padding: 40px 60px 30px 64px;
+    padding: 40px 60px 10px 64px;
     position: relative;
     color: #888;
     outline: none;
@@ -99,17 +98,17 @@
 .mi-slider > nav a.mi-selected:after {
     border-color: transparent;
     border-top-color: #fff;
-    border-width: 20px;
+    border-width: 22px;
     left: 50%;
-    margin-left: -20px;
+    margin-left: -22px;
 }
 
 .mi-slider > nav a.mi-selected:before {
     border-color: transparent;
     border-top-color: #333;
-    border-width: 27px;
+    border-width: 29px;
     left: 50%;
-    margin-left: -27px;
+    margin-left: -29px;
 }
 
 /* Move classes and animations */

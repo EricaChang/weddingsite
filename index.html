@@ -11,6 +11,7 @@
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
         <link rel="stylesheet" type="text/css" href="css/slider.css" />
         <link rel="stylesheet" type="text/css" href="css/elastislide.css" />
         <script src="js/modernizr.js"></script>
@@ -27,8 +28,13 @@
         </script>
     </head>
     <body>
-        <div class="container">
-            <div class="main">
+        <div id="container" class="container">
+            <a href="#" id="st-menu-trigger" data-effect="st-effect" class="menu"><span>Menu</span></a>
+            <nav id="st-menu" class="st-menu st-effect">
+                <div>BRIDE</div>
+                <div>GROOM</div>
+            </nav>
+            <div class="main st-pusher st-content">
                 <div id="mi-slider" class="mi-slider">
                     <ul>
                         <li>
@@ -37,7 +43,9 @@
                     </ul>
                     <ul>
                         <li>
-                            <iframe src="https://docs.google.com/forms/d/1Q6uH2JDSyLbUw_V-i4fgg0GiCQ2y3vQojaM1KkCawgI/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0" scrolling="yes" style="border-radius: 10px;border: 1px solid #808080;box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.9);">Loading...♫</iframe>
+                            <div>
+                                <iframe src="https://docs.google.com/forms/d/1Q6uH2JDSyLbUw_V-i4fgg0GiCQ2y3vQojaM1KkCawgI/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="border-radius: 10px;border: 1px solid #808080;box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.9);">Loading...♫</iframe>
+                            </div>
                         </li>
                     </ul>
                     <ul>
@@ -73,10 +81,12 @@
             </div>
         </div><!-- /container -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script type="text/javascript" src="js/jquery.catslider.js"></script>
-        <script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
-        <script type="text/javascript" src="js/jquery.elastislide.js"></script>
-        <script type="text/javascript" src="js/gallery.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/sidebarEffects.js"></script>
+        <script src="js/jquery.catslider.js"></script>
+        <script src="js/jquery.tmpl.min.js"></script>
+        <script src="js/jquery.elastislide.js"></script>
+        <script src="js/gallery.js"></script>
         <script>
             $(function() {
                 $('#mi-slider').catslider();
