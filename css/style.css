@@ -13,9 +13,13 @@ a {
     text-decoration: none;
 }
 
+body.container {
+    background: none repeat scroll 0% 0% #444;
+}
+
 .container {
     width: 100%;
-    position: relative;
+    /*position: relative;*/
 }
 
 .main {
