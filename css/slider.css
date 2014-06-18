@@ -55,7 +55,7 @@
 
 .mi-slider > nav {
     position: relative;
-    top: 575px;
+    top: 95%;
     text-align: center;
     max-width: 74%;
     margin: 0 auto;
@@ -265,7 +265,11 @@
 /* Media Queries */
 @media screen and (max-width: 910px){
     .mi-slider > nav {
-        max-width: 80%;
+        position: relative;
+        top: 95%;
+        text-align: center;
+        max-width: 74%;
+        margin: 0 auto;
     }
     .mi-slider > nav a {
         font-size: 12px;
@@ -274,7 +278,22 @@
 }
 
 @media screen and (max-width: 490px){
+    .mi-slider {
+        position: relative;
+        margin-top: 15px;
+        height: 500px;
+    }
+
+    .mi-slider > ul > li > div:first-child {
+        height: 400px;
+    }
+
     .mi-slider > nav {
+        position: relative;
+        top: 95%;
+        text-align: center;
+        max-width: 74%;
+        margin: 0 auto;
         border-top: none;
     }
 

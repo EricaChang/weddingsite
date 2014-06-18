@@ -200,7 +200,7 @@ body {
     line-height: 40px;
     font-size: 180px;
     z-index: -1;
-    right: 500px;
+    right: 100%;
     top: 35px;
     content: '\201C';
 }
