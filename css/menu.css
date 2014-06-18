@@ -229,3 +229,10 @@
 .bt-menu ul li a:focus:before {
 	color: #5BC2CE;
 }
+
+
+@media screen and (max-width: 490px){
+    .bt-menu {
+    	display: none;
+    }
+}
