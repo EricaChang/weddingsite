@@ -127,6 +127,8 @@
 }
 
 .bt-menu ul li {
+	white-space: nowrap;
+	overflow: hidden;
 	visibility: hidden;
 	opacity: 0;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s, visibility 0s 0.3s;

@@ -197,8 +197,8 @@
 		},
 		_addControls		: function() {
 
-			this.$navNext	= $('<span class="es-nav-next">Next</span>');
-			this.$navPrev	= $('<span class="es-nav-prev">Previous</span>');
+			this.$navNext	= $('<span class="es-nav-next"></span>');
+			this.$navPrev	= $('<span class="es-nav-prev"></span>');
 			$('<div class="es-nav"/>')
 			.append( this.$navPrev )
 			.append( this.$navNext )
