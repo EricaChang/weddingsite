@@ -198,11 +198,9 @@ body {
     font-family: "Bookman Old Style", Bookman, Garamond, serif;
     position: absolute;
     line-height: 40px;
-    width: 75px;
-    height: 75px;
     font-size: 180px;
     z-index: -1;
-    left: -80px;
+    right: 500px;
     top: 35px;
     content: '\201C';
 }
