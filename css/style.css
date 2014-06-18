@@ -13,13 +13,12 @@ a {
     text-decoration: none;
 }
 
-body.container {
-    background: none repeat scroll 0% 0% #444;
+body {
+    background-image: url(../images/bg.png)
 }
 
 .container {
     width: 100%;
-    /*position: relative;*/
 }
 
 .main {

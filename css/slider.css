@@ -1,6 +1,6 @@
 .mi-slider {
     position: relative;
-    /*margin-top: 10px;*/
+    margin-top: 10px;
     height: 600px;
 }
 
@@ -97,7 +97,7 @@
 
 .mi-slider > nav a.mi-selected:after {
     border-color: transparent;
-    border-top-color: #eee;
+    border-top-color: #EBE9EA;
     border-width: 22px;
     left: 50%;
     margin-left: -22px;
