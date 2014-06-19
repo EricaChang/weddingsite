@@ -220,13 +220,8 @@ body {
     }
 
     .about blockquote {
-        text-align: center;
-        font-weight: 400;
         font-size: 15px;
-        line-height: 20px;
-        height: 70px;
-        color: #8b8b8b;
-        margin-top: 4%;
+        margin-top: 8%;
     }
 
     .about blockquote p:before {
@@ -236,9 +231,5 @@ body {
     .about blockquote cite {
         font-size: 14px;
         padding-top: 12px;
-        display: inline-block;
-        font-style: normal;
-        text-transform: uppercase;
-        letter-spacing: 4px;
     }
 }

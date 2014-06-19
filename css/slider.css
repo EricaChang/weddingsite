@@ -279,8 +279,7 @@
 
 @media screen and (max-width: 490px){
     .mi-slider {
-        position: relative;
-        margin-top: 15px;
+        margin-top: 5px;
         height: 470px;
     }
 
@@ -289,11 +288,6 @@
     }
 
     .mi-slider > nav {
-        position: relative;
-        top: 95%;
-        text-align: center;
-        max-width: 74%;
-        margin: 0 auto;
         border-top: none;
     }
 

@@ -234,11 +234,8 @@
 
 @media screen and (max-height: 360px){
     .bt-menu ul:first-of-type li {
-		width: 160px;
 		height: 35px;
 		line-height: 35px;
-		-webkit-transform: translate3d(-100%,50%,0);
-		transform: translate3d(-100%,50%,0);
 	}
 }
 
