@@ -218,6 +218,12 @@ body {
     letter-spacing: 4px;
 }
 
+@media screen and (max-width: 910px){
+    .rg-image-nav {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 490px){
     .about h2 {
         display: none;
