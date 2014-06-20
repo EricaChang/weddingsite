@@ -20,6 +20,12 @@
         <script src="js/modernizr.js"></script>
         <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">
             <div class="rg-image-wrapper">
+                {{if itemsCount > 1}}
+                    <div class="rg-image-nav">
+                        <a href="#" class="rg-image-nav-prev"></a>
+                        <a href="#" class="rg-image-nav-next"></a>
+                    </div>
+                {{/if}}
                 <div class="rg-image"></div>
                 <div class="rg-loading"></div>
                 <div class="rg-caption-wrapper">
@@ -112,11 +118,11 @@
             </div>
         </div><!-- /container -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script type="text/javascript" src="js/jquery.catslider.js"></script>
-        <script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
-        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-        <script type="text/javascript" src="js/jquery.elastislide.js"></script>
-        <script type="text/javascript" src="js/gallery.js"></script>
+        <script src="js/jquery.catslider.js"></script>
+        <script src="js/jquery.tmpl.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/jquery.elastislide.js"></script>
+        <script src="js/gallery.js"></script>
         <script src="js/classie.js"></script>
 	    <script src="js/borderMenu.js"></script>
         <script>
